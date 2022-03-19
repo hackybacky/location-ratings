@@ -4,16 +4,16 @@ const PinSchema = mongoose.Schema(
   {
     username: {
       type: String,
-      required,
+      require:true,
     },
     desc: {
       type: String,
-      required,
+      require:true,
       min: 3,
     },
     title: {
       type: String,
-      required,
+      require:true,
       min: 3,
     },
     rating: {
